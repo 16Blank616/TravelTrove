@@ -1,0 +1,48 @@
+.tour {
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.tour img {
+  width: 800px;
+}
+
+.info-tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-tour > * {
+  margin-bottom: 10px;
+}
+
+.add-tour {
+  padding: 0 25px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #f0f0f0;
+  background-color: #414dfc;
+  box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+
+.more {
+  font-size: 20px;
+  margin: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+}

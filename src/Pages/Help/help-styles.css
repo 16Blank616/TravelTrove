@@ -1,0 +1,33 @@
+.Help {
+  background-image: url(/public/img/help.jpg);
+  backdrop-filter: blur(8px);
+  color: white;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: left;
+  width: 1400px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.info h4 {
+  margin-bottom: 49.1px;
+  letter-spacing: 2px;
+}
+
+.foot {
+  height: 50px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

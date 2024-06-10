@@ -1,0 +1,19 @@
+footer hr {
+  height: 100%;
+}
+
+footer div {
+  cursor: pointer;
+}
+
+footer h3 {
+  line-height: 1.2em;
+  color: #0000;
+  text-shadow: 0 0 #fff, 0 1.2em #000;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+footer h3:hover {
+  text-shadow: 0 -1.2em #fff, 0 0 #000;
+}

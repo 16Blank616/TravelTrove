@@ -1,0 +1,57 @@
+* {
+  text-decoration: none;
+}
+
+header {
+  height: 70px;
+  background-color: #003b95;
+}
+
+header svg,
+p {
+  cursor: pointer;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  font-size: 20px;
+}
+
+.head p {
+  color: #fff;
+}
+.tours {
+  margin-right: 90px;
+}
+
+.head div {
+  margin-top: 10px;
+}
+
+.head div:hover {
+  opacity: 0.8;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.login-true {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.login-true h3 {
+  color: white;
+}
+
+.login-true h3:hover {
+  cursor: pointer;
+}
