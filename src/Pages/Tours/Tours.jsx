@@ -6,6 +6,7 @@ import React from "react";
 import { fetchTours, setSortFilter } from "../../redux/action/tours";
 import { useSelector, useDispatch } from "react-redux";
 import { NavLink } from "react-router-dom";
+import bd from "./db.json";
 
 function Tours() {
   const items = useSelector(({ tours }) => tours.items);
@@ -39,7 +40,7 @@ function Tours() {
       </div>
       <div className="products">
         <div className="product">
-          {items.map((tour, index) => (
+          {bd.tours.map((tour, index) => (
             <NavLink to={`/tour/${index}`} key={index}>
               <div className="cart">
                 <img src={tour.img} alt="" />
